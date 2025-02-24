@@ -47,9 +47,6 @@ class CalculatorTest {
         assertEquals(2.0, calculator.divide(10.0, 5.0))
         assertEquals(-1.0, calculator.divide(-5.0, 5.0))
         assertEquals(1.6666666666666667, calculator.divide(5.0, 3.0), 1e-9)
-        assertThrows(IllegalArgumentException::class.java) {
-            calculator.divide(10.0, 0.0)
-        }
     }
 
     // Test for Division by Zero
