@@ -20,5 +20,8 @@ class CalculatorTest {
         assertEquals(6.0, calculator.subtract(10.0, 4.0))
     }
 
-    
+    @Test
+    fun testMul(){
+        assertEquals(15.0, calculator.multiply(5.0, 3.0))
+    }
 }
