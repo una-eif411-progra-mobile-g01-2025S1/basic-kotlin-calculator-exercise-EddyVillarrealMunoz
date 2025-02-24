@@ -14,4 +14,11 @@ class CalculatorTest {
     fun testAddition() {
         assertEquals(8.0, calculator.add(5.0, 3.0))
     }
+
+    @Test
+    fun testSub(){
+        assertEquals(6.0, calculator.subtract(10.0, 4.0))
+    }
+
+    
 }
