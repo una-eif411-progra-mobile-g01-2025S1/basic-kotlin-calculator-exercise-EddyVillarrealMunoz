@@ -1,5 +1,3 @@
-package org.example
-
 class Calculator {
 
     fun add(a: Double, b: Double): Double {
